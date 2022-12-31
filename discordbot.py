@@ -9,6 +9,7 @@ from discord.utils import get
 from discord import FFmpegPCMAudio
 import asyncio
 import time
+import lxml
 from gtts import gTTS
 load_dotenv()
 
