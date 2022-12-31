@@ -22,7 +22,7 @@ client = discord.Client()
 async def on_ready():
     print(f'Logged in as {client.user}.')
 
-@bot.command(name="tts")
+@client.event
 async def tts(ctx, *args):
     text = " ".join(args)
     user = ctx.message.author
